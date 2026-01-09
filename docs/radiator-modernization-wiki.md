@@ -103,7 +103,7 @@ graph TB
     
     subgraph "Authentication & Authorization Layer"
         subgraph "Jans Server"
-            ACE[/authorization_challenge Endpoint]
+            ACE[authorization_challenge Endpoint]
             AF[Agama Flow Engine]
             DCR[Dynamic Client Registration]
         end
